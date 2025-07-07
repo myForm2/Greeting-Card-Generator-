@@ -1,0 +1,61 @@
+
+   
+input,textarea{display:block;
+  
+  margin:5px;
+  border-radius:8px;
+  border:2px solid #819BA3;
+  
+}
+body{background:linear-gradient(to right,lightpink,#f4f4f5);}
+.Card{background:white;
+  display:flex;
+  border-radius:10px;
+  justify-content:center;
+  align-items:center;
+  border:2px double red ;
+  transition:all 2s ease;
+}
+h1{margin-left:40px}
+.greet{display:block;}
+.inputs{
+background:#f4f4f4;
+  
+  width:250px;
+  padding:3.5cm;
+  border-radius:10px;
+  border:2px solid black;
+  box-shadow:2px 2px 5px grey,-2px -2px 5px grey;
+  
+}
+input[type="submit"]:hover{
+  background:#129FF5;
+  cursor:pointer;
+} 
+#he{display:block;
+  text-align:center;
+  margin-top:50px;
+  font-family: Georgia;
+  font-weight:900;
+  
+}
+input:focus,textarea:focus{
+  border:2px solid #19B6E5;
+  outline:none;
+  
+}
+.box{display:flex;
+  justify-content:center;
+  align-items:center;
+  
+  height:50vh;
+  align-items:center;
+}
+
+label[for="name"]{margin-left:2.7cm;}
+label[for="message"] {margin-left:1.9cm;}
+input[type="submit"]{border:none
+  ; background:#1AE0DC;
+  margin:10px 2.3cm
+}
+input[id="name"]{padding-right:55px;}
